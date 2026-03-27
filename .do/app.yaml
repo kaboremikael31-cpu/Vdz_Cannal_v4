@@ -1,0 +1,9 @@
+name: vdz-zone-v4
+services:
+  - name: web
+    type: static
+    source_dir: /
+    build_command: ""          # Pas de build nécessaire
+    output_dir: /              # Le site est déjà prêt
+    http_port: 80
+    envs: []
