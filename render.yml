@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: vdz-zone-v4
+    env: static
+    staticPublishPath: "."
